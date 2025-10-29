@@ -283,4 +283,14 @@ body {
     font-size: 14px;
   }
 }
+/* When chat is opened */
+.chat-visible {
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+  pointer-events: all !important;
+}
+
+#devbay-chat {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
 
